@@ -1,6 +1,6 @@
-let imgs_01 = ['url(../img/toppings/bi/01.png)', 'url(../img/toppings/bi/02.png)', 'url(../img/toppings/bi/03.png)', 'url(../img/toppings/bi/04.png)', 'url(../img/toppings/bi/05.png)', 'url(../img/toppings/bi/06.png)', 'url(../img/toppings/bi/07.png)', 'url(../img/toppings/bi/08.png)', 'url(../img/toppings/bi/09.png)']
+let imgs_01 = ['url(../Cake/img/toppings/bi/01.png)', 'url(../Cake/img/toppings/bi/02.png)', 'url(../Cake/img/toppings/bi/03.png)', 'url(../Cake/img/toppings/bi/04.png)', 'url(../Cake/img/toppings/bi/05.png)', 'url(../Cake/img/toppings/bi/06.png)', 'url(../Cake/img/toppings/bi/07.png)', 'url(../Cake/img/toppings/bi/08.png)', 'url(../Cake/img/toppings/bi/09.png)']
 let card_description_01 = ['морковный', 'карамель-банан', 'ягодная молочная девочка', 'сникерс', 'тропический баунти', 'нутелла', 'вишня-шоколад', 'манговое наслаждение', 'красный бархат']
-let imgs_02 = ['url(../img/toppings/be/01.png)', 'url(../img/toppings/be/02.png)', 'url(../img/toppings/be/03.png)', 'url(../img/toppings/be/04.png)', 'url(../img/toppings/be/05.png)']
+let imgs_02 = ['url(../Cake/img/toppings/be/01.png)', 'url(../Cake/img/toppings/be/02.png)', 'url(../Cake/img/toppings/be/03.png)', 'url(../Cake/img/toppings/be/04.png)', 'url(../Cake/img/toppings/be/05.png)']
 let card_description_02 = ['красный бархат с клубникой', 'пряный с карамелью',  'сникерс', 'банановый брауни',  'мак-тропики']
 let card_options_01 = document.querySelector('.toppings-section__cards_01').querySelector('.card').querySelector('.options').children;
 let card_options_02 = document.querySelector('.toppings-section__cards_02').querySelector('.card').querySelector('.options').children;
