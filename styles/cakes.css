@@ -1,0 +1,3622 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Open+Sans:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Open+Sans:wght@300;600;700&display=swap");
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) 6;
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(72deg);
+  }
+  20% {
+    transform: rotate(144deg);
+  }
+  40% {
+    transform: rotate(216deg);
+  }
+  60% {
+    transform: rotate(288deg);
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(432deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+    transform: rotate(144deg);
+  }
+  20% {
+    transform: rotate(216deg);
+  }
+  40% {
+    transform: rotate(288deg);
+  }
+  60% {
+    transform: rotate(360deg);
+  }
+  80% {
+    transform: rotate(432deg);
+  }
+  100% {
+    transform: rotate(504deg);
+  }
+}
+@keyframes rotate4 {
+  0% {
+    transform: rotate(216deg);
+  }
+  20% {
+    transform: rotate(288deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: rotate(432deg);
+  }
+  80% {
+    transform: rotate(504deg);
+  }
+  100% {
+    transform: rotate(576deg);
+  }
+}
+@keyframes rotate5 {
+  0% {
+    transform: rotate(288deg);
+  }
+  20% {
+    transform: rotate(360deg);
+  }
+  40% {
+    transform: rotate(432deg);
+  }
+  60% {
+    transform: rotate(504deg);
+  }
+  80% {
+    transform: rotate(576deg);
+  }
+  100% {
+    transform: rotate(648deg);
+  }
+}
+@keyframes bento_rotate_01 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bento_rotate_02 {
+  0% {
+    transform: rotate(36deg);
+  }
+  100% {
+    transform: rotate(396deg);
+  }
+}
+@keyframes bento_rotate_03 {
+  0% {
+    transform: rotate(70deg);
+  }
+  100% {
+    transform: rotate(432deg);
+  }
+}
+@keyframes bento_rotate_04 {
+  0% {
+    transform: rotate(108deg);
+  }
+  100% {
+    transform: rotate(468deg);
+  }
+}
+@keyframes bento_rotate_05 {
+  0% {
+    transform: rotate(144deg);
+  }
+  100% {
+    transform: rotate(504deg);
+  }
+}
+@keyframes bento_rotate_06 {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(540deg);
+  }
+}
+@keyframes bento_rotate_07 {
+  0% {
+    transform: rotate(216deg);
+  }
+  100% {
+    transform: rotate(576deg);
+  }
+}
+@keyframes bento_rotate_08 {
+  0% {
+    transform: rotate(252deg);
+  }
+  100% {
+    transform: rotate(612deg);
+  }
+}
+@keyframes bento_rotate_09 {
+  0% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(648deg);
+  }
+}
+@keyframes bento_rotate_10 {
+  0% {
+    transform: rotate(324deg);
+  }
+  100% {
+    transform: rotate(684deg);
+  }
+}
+@keyframes xl_anim {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes sliding_1 {
+  10% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-400px);
+  }
+  70% {
+    transform: translateX(-800px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes sliding_2 {
+  10% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.6);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.6);
+  }
+}
+@keyframes movement {
+  16%, 48%, 78% {
+    top: 500px;
+    animation-timing-function: ease-out;
+  }
+  32% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+  62% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+  98% {
+    top: 100px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 70px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+@keyframes movement2 {
+  16%, 48%, 78% {
+    top: 700px;
+    animation-timing-function: ease-out;
+  }
+  32% {
+    top: 400px;
+    animation-timing-function: ease-in;
+  }
+  62% {
+    top: 20px;
+    animation-timing-function: ease-in;
+  }
+  98% {
+    top: 10px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 10px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+.cakes-section {
+  background-color: #CCCCFF;
+  height: 900px;
+  width: 100vw;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.cakes-section .container {
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  min-height: 100px;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+}
+.cakes-section__header {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin: 80px 0 80px 0;
+  justify-self: start;
+  color: #fff;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 90px;
+}
+.cakes-section__title-bi {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  margin-top: -112px;
+  z-index: 5;
+  justify-self: start;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.4rem;
+  transition: transform 0.5s;
+  font-weight: 300;
+  font-size: 36px;
+}
+.cakes-section__title-be {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  margin-top: -112px;
+  margin-left: 60px;
+  z-index: 5;
+  justify-self: start;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  font-size: 36px;
+  transition: transform 0.5s;
+  transform: translateX(1000px);
+}
+.cakes-section__title-mu {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  margin-top: -112px;
+  margin-left: 30px;
+  z-index: 5;
+  justify-self: start;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  font-size: 36px;
+  transition: transform 0.5s;
+  transform: translateX(1000px);
+}
+.cakes-section-next {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  justify-self: end;
+  height: 80px;
+  position: absolute;
+  top: 130px;
+  z-index: 10;
+}
+.cakes-section-next svg {
+  cursor: pointer;
+}
+.cakes-section-next svg:hover {
+  opacity: 0.5;
+}
+.cakes-section-back {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  justify-self: end;
+  height: 80px;
+  position: absolute;
+  padding: 0 10px;
+  top: 130px;
+  z-index: 10;
+  display: none;
+}
+.cakes-section-back svg {
+  cursor: pointer;
+}
+.cakes-section-back svg:hover {
+  opacity: 0.5;
+}
+.cakes-section-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  min-height: 100px;
+  justify-content: center;
+  justify-self: center;
+  height: 900px;
+  width: 1200px;
+  transition: trasform 2s;
+}
+.cakes-section-wrapper__descr {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  margin-top: -800px;
+  background-color: rgba(204, 204, 255, 0.3);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  color: #fff;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 48px;
+  border-radius: 25px;
+  z-index: 5;
+  transition: transform 0.5s;
+}
+.cakes-section-wrapper__descr .preheader {
+  top: 40px;
+  left: 40px;
+  position: absolute;
+  color: #fff;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+}
+.cakes-section-wrapper__descr .weight {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  font-family: Amatic SC;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  margin: 110px auto 0 auto;
+}
+.cakes-section-wrapper__descr .weight .num {
+  margin-right: 55px;
+}
+.cakes-section-wrapper__descr .price {
+  margin: 50px auto 0 auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Amatic SC;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+.cakes-section-wrapper__descr .price .num {
+  margin-right: -40px;
+}
+.cakes-section-wrapper__descr .description {
+  width: 430px;
+  font-size: 24px;
+  display: flex;
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #ffffff;
+  font-family: Amatic SC;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+  transform: translateY(2000px);
+}
+.cakes-section-wrapper__descr.xs {
+  transform: translateY(0);
+}
+.cakes-section__list {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  list-style-type: none;
+  justify-self: center;
+  width: 1200px;
+  height: 900px;
+  margin: -20px 0 0 0;
+  padding: 0;
+  position: relative;
+}
+.cakes-section__list :nth-child(1) {
+  top: 430px;
+  left: -20px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list :nth-child(2) {
+  top: 200px;
+  left: 40px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list :nth-child(3) {
+  top: 10px;
+  left: 280px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list :nth-child(4) {
+  top: 10px;
+  left: 750px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list :nth-child(5) {
+  top: 200px;
+  left: 990px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list :nth-child(6) {
+  top: 430px;
+  left: 1060px;
+  position: absolute;
+  z-index: 4;
+}
+.cakes-section__list_item {
+  color: #fff;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 24px;
+  background-color: rgba(204, 204, 255, 0.3);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 150px;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.cakes-section__list_item:hover {
+  background-color: rgb(213, 237, 255);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+}
+.cakes-section__list_item:active {
+  background-color: rgb(213, 237, 255);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+}
+.cakes-section__cake-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  top: -150px;
+  width: 1200px;
+  height: 900px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 3;
+}
+.cakes-section__cake-wrapper :nth-child(1) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/cakeXS/cake_xs_1.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: rotate 15s linear infinite;
+}
+.cakes-section__cake-wrapper :nth-child(2) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/cakeXS/cake_xs_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: rotate2 15s linear infinite;
+}
+.cakes-section__cake-wrapper :nth-child(3) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: calc(50% - 150px);
+  transform-origin: 50% 650px;
+  position: absolute;
+  background-image: url("../img/cakeXS/cake_xs_3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: rotate3 15s linear infinite;
+}
+.cakes-section__cake-wrapper :nth-child(4) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/cakeXS/cake_xs_4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: rotate4 15s linear infinite;
+}
+.cakes-section__cake-wrapper :nth-child(5) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/cakeXS/cake_xs_5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: rotate5 15s linear infinite;
+}
+.cakes-section__cake-wrapper_xl {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  top: -150px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 3;
+  width: 300px;
+  height: 300px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/cakeXL/01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: xl_anim 15s linear infinite;
+  transition: transform 1s;
+  transform: translateY(2000px) rotate(-90deg);
+  display: none;
+}
+.cakes-section__cake-wrapper_heart {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  top: 90px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 700px;
+  position: absolute;
+  background-image: url("../img/heart/01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: xl_anim 15s linear infinite;
+  transition: transform 0.4s;
+  transform: translateY(2000px) rotate(-97deg);
+  display: none;
+}
+.cakes-section-wrapper__bento {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  min-height: 100px;
+  justify-content: center;
+  justify-self: center;
+  height: 800px;
+  position: relative;
+  margin-top: -900px;
+  transform: translateX(2000px);
+  transition: transform 0.5s;
+}
+.cakes-section-wrapper__bento__descr {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  margin-top: 70px;
+  background-color: rgba(224, 242, 255, 0.3);
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  color: #fff;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 48px;
+  border-radius: 25px;
+  z-index: 5;
+  transition: transform 0.5s;
+  transform: translateY(2000px);
+}
+.cakes-section-wrapper__bento__descr .weight {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  font-family: Amatic SC;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  margin: 100px auto 0 auto;
+}
+.cakes-section-wrapper__bento__descr .weight .num {
+  margin-left: 55px;
+}
+.cakes-section-wrapper__bento__descr .price {
+  margin: 50px auto 0 auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Amatic SC;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+.cakes-section-wrapper__bento__descr .price .num {
+  margin-right: 55px;
+}
+.cakes-section-wrapper__bento__descr .description {
+  width: 430px;
+  font-size: 24px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #ffffff;
+  font-family: Amatic SC;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.cakes-section-wrapper__bento__cake-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: center;
+  top: -200px;
+  width: 1200px;
+  height: 900px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 2;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(1) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  position: absolute;
+  background-image: url("../img/bento/01.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: bento_rotate_01 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(2) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(36deg);
+  position: absolute;
+  background-image: url("../img/bento/02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: bento_rotate_02 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(3) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(72deg);
+  position: absolute;
+  background-image: url("../img/bento/03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: bento_rotate_03 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(4) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(108deg);
+  position: absolute;
+  background-image: url("../img/bento/04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: bento_rotate_04 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(5) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(144deg);
+  position: absolute;
+  background-image: url("../img/bento/05.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: bento_rotate_05 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(6) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(180deg);
+  position: absolute;
+  background-image: url("../img/bento/06.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  animation: bento_rotate_06 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(7) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(216deg);
+  position: absolute;
+  background-image: url("../img/bento/07.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  animation: bento_rotate_07 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(8) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(252deg);
+  position: absolute;
+  background-image: url("../img/bento/08.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  animation: bento_rotate_08 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(9) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(288deg);
+  position: absolute;
+  background-image: url("../img/bento/09.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  animation: bento_rotate_09 18s linear infinite;
+}
+.cakes-section-wrapper__bento__cake-wrapper :nth-child(10) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 80px;
+  left: calc(50% - 150px);
+  transform-origin: 50% 800px;
+  transform: rotate(324deg);
+  position: absolute;
+  background-image: url("../img/bento/10.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  animation: bento_rotate_10 18s linear infinite;
+}
+.cakes-section-wrapper__mousse {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  min-height: 100px;
+  justify-content: center;
+  justify-self: center;
+  height: 800px;
+  width: 2000px;
+  position: relative;
+  margin-top: -800px;
+  transition: trasform 1s;
+  transform: translateX(2000px);
+}
+.cakes-section-wrapper__mousse__blueberries {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-image: url("../img/blueberries.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: 200px;
+  left: 30px;
+  animation: movement 10s linear infinite;
+}
+.cakes-section-wrapper__mousse__blueberries.se {
+  height: 100px;
+  width: 100px;
+  transform: rotate(40deg);
+  top: 100px;
+  left: -150px;
+  animation: movement 10.2s linear infinite;
+}
+.cakes-section-wrapper__mousse__blueberries.th {
+  height: 200px;
+  width: 200px;
+  transform: rotate(60deg);
+  top: 50px;
+  left: -100px;
+  animation: movement 9.9s linear infinite;
+}
+.cakes-section-wrapper__mousse__blueberries.tho {
+  height: 250px;
+  width: 250px;
+  transform: rotate(60deg);
+  top: 20px;
+  left: -100px;
+  animation: movement 9.7s linear infinite;
+}
+.cakes-section-wrapper__mousse__descr {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: start;
+  margin-top: -10px;
+  background-color: rgba(224, 242, 255, 0.3);
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  color: #fff;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 48px;
+  border-radius: 25px;
+  z-index: 5;
+  transition: transform 0.5s;
+  transform: translateY(2000px);
+}
+.cakes-section-wrapper__mousse__descr .price {
+  margin: 70px 115px 0 auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Amatic SC;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+.cakes-section-wrapper__mousse__descr .price .num {
+  margin-right: -40px;
+}
+.cakes-section-wrapper__mousse__descr .description {
+  width: 480px;
+  font-size: 36px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-family: Amatic SC;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .cakes-section {
+    height: 800px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .cakes-section .container {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 800px;
+  }
+  .cakes-section__header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    font-size: 56px;
+    margin: 60px 0 0 0;
+  }
+  .cakes-section__title-bi {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin: 39px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-mu {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section-next {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    top: 155px;
+    position: absolute;
+    justify-self: start;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-next svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-next svg:hove {
+    opacity: 0.5;
+  }
+  .cakes-section-back {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: absolute;
+    justify-self: end;
+    top: 155px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-back svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-back svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 900px;
+    width: 400px;
+    margin: 0;
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__descr {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__descr .preheader {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    position: static;
+    padding: 20px 20px 0 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+  }
+  .cakes-section-wrapper__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .weight .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .price .num {
+    margin-right: -20px;
+  }
+  .cakes-section-wrapper__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    width: 270px;
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+    margin-top: -550px;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__descr.s {
+    margin-top: -450px;
+  }
+  .cakes-section-wrapper__descr.m {
+    margin-top: -500px;
+  }
+  .cakes-section-wrapper__descr.xl {
+    margin-top: -600px;
+  }
+  .cakes-section-wrapper__descr.heart {
+    margin-top: -650px;
+  }
+  .cakes-section-wrapper__descr.heart .weight {
+    margin-top: 50px;
+  }
+  .cakes-section-wrapper__descr.heart .price {
+    margin-top: 20px;
+  }
+  .cakes-section-wrapper__descr.xs {
+    transform: translateY(0);
+  }
+  .cakes-section__list {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    list-style-type: none;
+    width: 350px;
+    height: 100px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: static;
+  }
+  .cakes-section__list :nth-child(1) {
+    top: 430px;
+    left: -20px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(2) {
+    top: 200px;
+    left: 40px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(3) {
+    top: 10px;
+    left: 280px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(4) {
+    top: 10px;
+    left: 750px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(5) {
+    top: 200px;
+    left: 990px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(6) {
+    top: 430px;
+    left: 1060px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list_item {
+    position: static;
+    font-size: 12px;
+    background-color: rgba(213, 237, 255, 0.2);
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+  }
+  .cakes-section__list_item:hover {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__list_item:active {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    top: 190px;
+    width: 120px;
+    height: 900px;
+    opacity: 0.9;
+    z-index: 3;
+  }
+  .cakes-section__cake-wrapper :nth-child(1) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(2) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(3) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(4) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(5) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper_xl {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    transform-origin: 50% 300px;
+    top: 150px;
+    animation: xl_anim 10s linear infinite;
+  }
+  .cakes-section__cake-wrapper_heart {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    top: 10px;
+    transform-origin: 50% 400px;
+    justify-self: center;
+  }
+  .cakes-section-wrapper__bento {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    height: 900px;
+    margin-top: -1100px;
+    transform: translateX(2000px);
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__bento__descr {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    width: 340px;
+    height: 350px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 250px 0 0 760px;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 8;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__bento__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: 80px auto 0 auto;
+  }
+  .cakes-section-wrapper__bento__descr .weight .num {
+    margin-right: 20px;
+  }
+  .cakes-section-wrapper__bento__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__bento__descr .price .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__bento__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    width: 260px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    top: 100px;
+  }
+  .cakes-section-wrapper__mousse {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    width: 350px;
+    position: relative;
+    margin-top: -700px;
+    transition: trasform 1s;
+    transform: translateX(2000px);
+  }
+  .cakes-section-wrapper__mousse__blueberries {
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-image: url("../img/blueberries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: -1000px;
+    left: -50px;
+    animation: movement 10s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.se {
+    height: 70px;
+    width: 70px;
+    transform: rotate(40deg);
+    top: -1000px;
+    left: -80px;
+    animation: movement 10.2s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.th {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: -1000px;
+    left: -100px;
+    animation: movement 9.9s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.tho {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: -1000px;
+    left: -150px;
+    animation: movement2 9.7s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__descr {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -150px;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    font-size: 36px;
+    display: none;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-left: 20px;
+  }
+  .cakes-section-wrapper__mousse__descr .price .price {
+    margin-left: 20px;
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    margin: -100px auto 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-right: 40px;
+  }
+  .cakes-section-wrapper__mousse__descr .description {
+    width: 230px;
+    font-size: 16px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+  }
+}
+@media (min-width: 576px) and (max-width: 769px) {
+  .cakes-section {
+    height: 800px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .cakes-section .container {
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 1000px;
+  }
+  .cakes-section__header {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    font-family: Open Sans;
+    font-size: 56px;
+    margin: 60px 0 0 0;
+  }
+  .cakes-section__title-bi {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin: 39px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-mu {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section-next {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    top: 155px;
+    position: absolute;
+    justify-self: start;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-next svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-next svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-back {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: absolute;
+    justify-self: end;
+    top: 155px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-back svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-back svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 900px;
+    width: 400px;
+    margin: 0;
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__descr {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__descr .preheader {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    position: static;
+    padding: 20px 20px 0 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+  }
+  .cakes-section-wrapper__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .weight .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .price .num {
+    margin-right: -20px;
+  }
+  .cakes-section-wrapper__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    width: 270px;
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+    margin-top: -550px;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__descr.s {
+    margin-top: -450px;
+  }
+  .cakes-section-wrapper__descr.m {
+    margin-top: -500px;
+  }
+  .cakes-section-wrapper__descr.xl {
+    margin-top: -600px;
+  }
+  .cakes-section-wrapper__descr.heart {
+    margin-top: -650px;
+  }
+  .cakes-section-wrapper__descr.heart .weight {
+    margin-top: 50px;
+  }
+  .cakes-section-wrapper__descr.heart .price {
+    margin-top: 20px;
+  }
+  .cakes-section-wrapper__descr.xs {
+    transform: translateY(0);
+  }
+  .cakes-section__list {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    list-style-type: none;
+    width: 350px;
+    height: 100px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: static;
+  }
+  .cakes-section__list :nth-child(1) {
+    top: 430px;
+    left: -20px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(2) {
+    top: 200px;
+    left: 40px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(3) {
+    top: 10px;
+    left: 280px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(4) {
+    top: 10px;
+    left: 750px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(5) {
+    top: 200px;
+    left: 990px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(6) {
+    top: 430px;
+    left: 1060px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list_item {
+    position: static;
+    font-size: 12px;
+    background-color: rgba(213, 237, 255, 0.2);
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+  }
+  .cakes-section__list_item:hover {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__list_item:active {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    top: 190px;
+    width: 120px;
+    height: 900px;
+    opacity: 0.9;
+  }
+  .cakes-section__cake-wrapper :nth-child(1) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(2) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(3) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(4) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(5) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper_xl {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    transform-origin: 50% 300px;
+    top: 150px;
+    animation: xl_anim 10s linear infinite;
+  }
+  .cakes-section__cake-wrapper_heart {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    top: 10px;
+    transform-origin: 50% 400px;
+    justify-self: center;
+  }
+  .cakes-section-wrapper__bento {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    height: 900px;
+    margin-top: -1100px;
+    transform: translateX(2000px);
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__bento__descr {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    width: 340px;
+    height: 350px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 300px 0 0 790px;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 2;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__bento__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: 80px auto 0 auto;
+  }
+  .cakes-section-wrapper__bento__descr .weight .num {
+    margin-right: 20px;
+  }
+  .cakes-section-wrapper__bento__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__bento__descr .price .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__bento__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    width: 260px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    top: 100px;
+  }
+  .cakes-section-wrapper__mousse {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    width: 350px;
+    position: relative;
+    margin-top: -700px;
+    transition: trasform 1s;
+    transform: translateX(2000px);
+  }
+  .cakes-section-wrapper__mousse__blueberries {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/blueberries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 100px;
+    left: 30px;
+    animation: movement 10s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.se {
+    height: 70px;
+    width: 70px;
+    transform: rotate(40deg);
+    top: 100px;
+    left: -150px;
+    animation: movement 10.2s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.th {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: 50px;
+    left: -100px;
+    animation: movement 9.9s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.tho {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: 20px;
+    left: -100px;
+    animation: movement 9.7s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__descr {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -150px;
+    font-size: 18px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__mousse__descr .weight {
+    display: none;
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    margin: -100px auto 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-right: 40px;
+  }
+  .cakes-section-wrapper__mousse__descr .description {
+    width: 230px;
+    font-size: 16px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .cakes-section {
+    height: 800px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .cakes-section .container {
+    display: grid;
+    grid-template-columns: repeat(8, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 1000px;
+  }
+  .cakes-section__header {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    font-family: Open Sans;
+    font-size: 56px;
+    margin: 60px 0 0 0;
+  }
+  .cakes-section__title-bi {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    margin: 39px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-mu {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section-next {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    top: 155px;
+    position: absolute;
+    justify-self: start;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-next svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-next svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-back {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: absolute;
+    justify-self: end;
+    top: 155px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-back svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-back svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 900px;
+    width: 400px;
+    margin: 0;
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__descr {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__descr .preheader {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    position: static;
+    padding: 20px 20px 0 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+  }
+  .cakes-section-wrapper__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .weight .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .price .num {
+    margin-right: -20px;
+  }
+  .cakes-section-wrapper__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    width: 270px;
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+    margin-top: -550px;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__descr.s {
+    margin-top: -450px;
+  }
+  .cakes-section-wrapper__descr.m {
+    margin-top: -500px;
+  }
+  .cakes-section-wrapper__descr.xl {
+    margin-top: -600px;
+  }
+  .cakes-section-wrapper__descr.heart {
+    margin-top: -650px;
+  }
+  .cakes-section-wrapper__descr.heart .weight {
+    margin-top: 50px;
+  }
+  .cakes-section-wrapper__descr.heart .price {
+    margin-top: 20px;
+  }
+  .cakes-section-wrapper__descr.xs {
+    transform: translateY(0);
+  }
+  .cakes-section__list {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    list-style-type: none;
+    width: 350px;
+    height: 100px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: static;
+  }
+  .cakes-section__list :nth-child(1) {
+    top: 430px;
+    left: -20px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(2) {
+    top: 200px;
+    left: 40px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(3) {
+    top: 10px;
+    left: 280px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(4) {
+    top: 10px;
+    left: 750px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(5) {
+    top: 200px;
+    left: 990px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(6) {
+    top: 430px;
+    left: 1060px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list_item {
+    position: static;
+    font-size: 12px;
+    background-color: rgba(213, 237, 255, 0.2);
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+  }
+  .cakes-section__list_item:hover {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__list_item:active {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    top: 190px;
+    width: 120px;
+    height: 900px;
+    opacity: 0.9;
+  }
+  .cakes-section__cake-wrapper :nth-child(1) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(2) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(3) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(4) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(5) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper_xl {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    transform-origin: 50% 300px;
+    top: 150px;
+    animation: xl_anim 10s linear infinite;
+  }
+  .cakes-section__cake-wrapper_heart {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    top: 10px;
+    transform-origin: 50% 400px;
+    justify-self: center;
+  }
+  .cakes-section-wrapper__bento {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    height: 900px;
+    margin-top: -1100px;
+    transform: translateX(2000px);
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__bento__descr {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    width: 340px;
+    height: 350px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 300px 0 0 790px;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__bento__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: 80px auto 0 auto;
+  }
+  .cakes-section-wrapper__bento__descr .weight .num {
+    margin-right: 20px;
+  }
+  .cakes-section-wrapper__bento__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__bento__descr .price .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__bento__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    width: 260px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    top: 100px;
+  }
+  .cakes-section-wrapper__mousse {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    width: 350px;
+    position: relative;
+    margin-top: -700px;
+    transition: trasform 1s;
+    transform: translateX(2000px);
+  }
+  .cakes-section-wrapper__mousse__blueberries {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/blueberries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 100px;
+    left: 30px;
+    animation: movement 10s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.se {
+    height: 70px;
+    width: 70px;
+    transform: rotate(40deg);
+    top: 100px;
+    left: -150px;
+    animation: movement 10.2s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.th {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: 50px;
+    left: -100px;
+    animation: movement 9.9s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.tho {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: 20px;
+    left: -100px;
+    animation: movement 9.7s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__descr {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -150px;
+    font-size: 18px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__mousse__descr .weight {
+    display: none;
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    margin: -100px auto 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-right: 40px;
+  }
+  .cakes-section-wrapper__mousse__descr .description {
+    width: 230px;
+    font-size: 16px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cakes-section {
+    height: 800px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .cakes-section .container {
+    display: grid;
+    grid-template-columns: repeat(10, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 1000px;
+  }
+  .cakes-section__header {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    font-family: Open Sans;
+    font-size: 56px;
+    margin: 60px 0 0 0;
+  }
+  .cakes-section__title-bi {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    margin: 39px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section__title-mu {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    margin: -20px 0 0 0;
+    justify-self: center;
+    font-size: 18px;
+  }
+  .cakes-section-next {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    top: 155px;
+    position: absolute;
+    justify-self: start;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-next svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-next svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-back {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    position: absolute;
+    justify-self: end;
+    top: 155px;
+    left: -45px;
+    height: 20px;
+    width: 20px;
+  }
+  .cakes-section-back svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-back svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 900px;
+    width: 400px;
+    margin: 0;
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__descr {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(6, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__descr .preheader {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    position: static;
+    padding: 20px 20px 0 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+  }
+  .cakes-section-wrapper__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .weight .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__descr .price .num {
+    margin-right: -20px;
+  }
+  .cakes-section-wrapper__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    width: 270px;
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+    margin-top: -550px;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__descr.s {
+    margin-top: -450px;
+  }
+  .cakes-section-wrapper__descr.m {
+    margin-top: -500px;
+  }
+  .cakes-section-wrapper__descr.xl {
+    margin-top: -600px;
+  }
+  .cakes-section-wrapper__descr.heart {
+    margin-top: -650px;
+  }
+  .cakes-section-wrapper__descr.heart .weight {
+    margin-top: 50px;
+  }
+  .cakes-section-wrapper__descr.heart .price {
+    margin-top: 20px;
+  }
+  .cakes-section-wrapper__descr.xs {
+    transform: translateY(0);
+  }
+  .cakes-section__list {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    list-style-type: none;
+    width: 350px;
+    height: 100px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: static;
+  }
+  .cakes-section__list :nth-child(1) {
+    top: 430px;
+    left: -20px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(2) {
+    top: 200px;
+    left: 40px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(3) {
+    top: 10px;
+    left: 280px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(4) {
+    top: 10px;
+    left: 750px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(5) {
+    top: 200px;
+    left: 990px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(6) {
+    top: 430px;
+    left: 1060px;
+    position: static;
+    z-index: 4;
+  }
+  .cakes-section__list_item {
+    position: static;
+    font-size: 12px;
+    background-color: rgba(213, 237, 255, 0.2);
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+  }
+  .cakes-section__list_item:hover {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__list_item:active {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    top: 190px;
+    width: 120px;
+    height: 900px;
+    opacity: 0.9;
+  }
+  .cakes-section__cake-wrapper :nth-child(1) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(2) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(3) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(4) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper :nth-child(5) {
+    transform-origin: 50% 600px;
+  }
+  .cakes-section__cake-wrapper_xl {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: center;
+    transform-origin: 50% 300px;
+    top: 150px;
+    animation: xl_anim 10s linear infinite;
+  }
+  .cakes-section__cake-wrapper_heart {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    top: 10px;
+    transform-origin: 50% 400px;
+    justify-self: center;
+  }
+  .cakes-section-wrapper__bento {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    justify-self: center;
+    height: 900px;
+    margin: -1080px 0 0 0;
+    transform: translateX(2000px);
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__bento__descr {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    justify-self: start;
+    width: 340px;
+    height: 350px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 300px 0 0 0;
+    font-size: 36px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+  }
+  .cakes-section-wrapper__bento__descr .weight {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: 80px auto 0 auto;
+  }
+  .cakes-section-wrapper__bento__descr .weight .num {
+    margin-right: 20px;
+  }
+  .cakes-section-wrapper__bento__descr .price {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__bento__descr .price .num {
+    margin-right: 60px;
+  }
+  .cakes-section-wrapper__bento__descr .description {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    width: 260px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    top: 100px;
+  }
+  .cakes-section-wrapper__mousse {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    width: 350px;
+    position: relative;
+    margin-top: -700px;
+    transition: trasform 1s;
+    transform: translateX(2000px);
+  }
+  .cakes-section-wrapper__mousse__blueberries {
+    position: absolute;
+    height: 100px;
+    width: 1000px;
+    background-image: url("../img/blueberries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 100px;
+    left: 30px;
+    animation: movement 10s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.se {
+    height: 70px;
+    width: 70px;
+    transform: rotate(40deg);
+    top: -600px;
+    left: -10px;
+    animation: movement 10.2s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.th {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: -700px;
+    left: -10px;
+    animation: movement 9.9s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.tho {
+    height: 60px;
+    width: 60px;
+    transform: rotate(60deg);
+    top: -700px;
+    left: -10px;
+    animation: movement 9.7s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__descr {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -150px;
+    font-size: 18px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__mousse__descr .weight {
+    display: none;
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    margin: -100px auto 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-right: 40px;
+  }
+  .cakes-section-wrapper__mousse__descr .description {
+    width: 230px;
+    font-size: 16px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .cakes-section {
+    height: 900px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .cakes-section .container {
+    display: grid;
+    grid-template-columns: repeat(12, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 800px;
+  }
+  .cakes-section__header {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: start;
+    font-family: Open Sans;
+    font-size: 90px;
+    margin: 60px 0 0 0;
+  }
+  .cakes-section__title-bi {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    margin: -40px 0 0 0;
+    justify-self: center;
+    font-size: 36px;
+  }
+  .cakes-section__title-be {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    margin: -40px 0 0 0;
+    justify-self: center;
+    font-size: 36px;
+  }
+  .cakes-section__title-mu {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    margin: -40px 0 0 0;
+    justify-self: center;
+    font-size: 36px;
+  }
+  .cakes-section-next {
+    grid-column-start: 12;
+    grid-column-end: 13;
+    top: 110px;
+    position: absolute;
+    justify-self: start;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  .cakes-section-next svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-next svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-back {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    position: absolute;
+    justify-self: end;
+    top: 110px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+  }
+  .cakes-section-back svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .cakes-section-back svg:hover {
+    opacity: 0.5;
+  }
+  .cakes-section-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 900px;
+    width: 400px;
+    margin: 100px;
+    transition: trasform 2s;
+  }
+  .cakes-section-wrapper__descr {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    margin-top: -800px;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 48px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__descr .preheader {
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+  }
+  .cakes-section-wrapper__descr .weight {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    margin: 100px auto 0 auto;
+  }
+  .cakes-section-wrapper__descr .weight .num {
+    margin-right: 55px;
+  }
+  .cakes-section-wrapper__descr .price {
+    margin: 50px auto 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  .cakes-section-wrapper__descr .price .num {
+    margin-right: -40px;
+  }
+  .cakes-section-wrapper__descr .description {
+    width: 430px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__descr.s, .cakes-section-wrapper__descr.m, .cakes-section-wrapper__descr.l, .cakes-section-wrapper__descr.xl, .cakes-section-wrapper__descr.heart {
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__descr.xs {
+    transform: translateY(0);
+  }
+  .cakes-section__list {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    list-style-type: none;
+    justify-self: center;
+    width: 1200px;
+    height: 900px;
+    margin: -20px 0 0 0;
+    padding: 0;
+    position: relative;
+  }
+  .cakes-section__list :nth-child(1) {
+    top: 430px;
+    left: -20px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(2) {
+    top: 200px;
+    left: 40px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(3) {
+    top: 10px;
+    left: 280px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(4) {
+    top: 10px;
+    left: 750px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(5) {
+    top: 200px;
+    left: 990px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list :nth-child(6) {
+    top: 430px;
+    left: 1060px;
+    position: absolute;
+    z-index: 4;
+  }
+  .cakes-section__list_item {
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 24px;
+    background-color: rgba(213, 237, 255, 0.2);
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .cakes-section__list_item:hover {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__list_item:active {
+    background-color: rgb(213, 237, 255);
+  }
+  .cakes-section__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    top: -150px;
+    width: 1200px;
+    height: 900px;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+  }
+  .cakes-section__cake-wrapper :nth-child(1) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/cakeXS/cake_xs_1.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: rotate 15s linear infinite;
+  }
+  .cakes-section__cake-wrapper :nth-child(2) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/cakeXS/cake_xs_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: rotate2 15s linear infinite;
+  }
+  .cakes-section__cake-wrapper :nth-child(3) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: calc(50% - 150px);
+    transform-origin: 50% 650px;
+    position: absolute;
+    background-image: url("../img/cakeXS/cake_xs_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: rotate3 15s linear infinite;
+  }
+  .cakes-section__cake-wrapper :nth-child(4) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/cakeXS/cake_xs_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: rotate4 15s linear infinite;
+  }
+  .cakes-section__cake-wrapper :nth-child(5) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/cakeXS/cake_xs_5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: rotate5 15s linear infinite;
+  }
+  .cakes-section__cake-wrapper_xl {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    top: -150px;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/cakeXL/01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: xl_anim 15s linear infinite;
+    transition: transform 1s;
+    transform: translateY(2000px) rotate(-90deg);
+    display: none;
+  }
+  .cakes-section__cake-wrapper_heart {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    top: -130px;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 700px;
+    position: absolute;
+    background-image: url("../img/heart/01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: xl_anim 15s linear infinite;
+    transition: transform 0.4s;
+    transform: translateY(2000px) rotate(-97deg);
+    display: none;
+  }
+  .cakes-section-wrapper__bento {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-columns: repeat(12, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    position: relative;
+    margin-top: -980px;
+    transform: translateX(2000px);
+    transition: transform 0.5s;
+  }
+  .cakes-section-wrapper__bento__descr {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    margin-top: 70px;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 48px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__bento__descr .weight {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    margin: 100px auto 0 auto;
+  }
+  .cakes-section-wrapper__bento__descr .weight .num {
+    margin-left: 55px;
+  }
+  .cakes-section-wrapper__bento__descr .price {
+    margin: 50px auto 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  .cakes-section-wrapper__bento__descr .price .num {
+    margin-right: 55px;
+  }
+  .cakes-section-wrapper__bento__descr .description {
+    width: 430px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: center;
+    top: -200px;
+    width: 1200px;
+    height: 900px;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 2;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(1) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    position: absolute;
+    background-image: url("../img/bento/01.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: bento_rotate_01 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(2) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(36deg);
+    position: absolute;
+    background-image: url("../img/bento/02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: bento_rotate_02 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(3) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(72deg);
+    position: absolute;
+    background-image: url("../img/bento/03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: bento_rotate_03 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(4) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(108deg);
+    position: absolute;
+    background-image: url("../img/bento/04.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: bento_rotate_04 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(5) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(144deg);
+    position: absolute;
+    background-image: url("../img/bento/05.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -o-object-fit: contain;
+       object-fit: contain;
+    animation: bento_rotate_05 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(6) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-image: url("../img/bento/06.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-repeat: no-repeat;
+    animation: bento_rotate_06 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(7) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(216deg);
+    position: absolute;
+    background-image: url("../img/bento/07.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-repeat: no-repeat;
+    animation: bento_rotate_07 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(8) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(252deg);
+    position: absolute;
+    background-image: url("../img/bento/08.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-repeat: no-repeat;
+    animation: bento_rotate_08 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(9) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(288deg);
+    position: absolute;
+    background-image: url("../img/bento/09.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-repeat: no-repeat;
+    animation: bento_rotate_09 18s linear infinite;
+  }
+  .cakes-section-wrapper__bento__cake-wrapper :nth-child(10) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 80px;
+    left: calc(50% - 150px);
+    transform-origin: 50% 800px;
+    transform: rotate(324deg);
+    position: absolute;
+    background-image: url("../img/bento/10.png");
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-repeat: no-repeat;
+    animation: bento_rotate_10 18s linear infinite;
+  }
+  .cakes-section-wrapper__mousse {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-columns: repeat(12, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    justify-self: center;
+    height: 800px;
+    width: 2000px;
+    position: relative;
+    margin-top: -800px;
+    transition: trasform 1s;
+    transform: translateX(2000px);
+  }
+  .cakes-section-wrapper__mousse__blueberries {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: url("../img/blueberries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 200px;
+    left: 30px;
+    animation: movement 10s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.se {
+    height: 100px;
+    width: 100px;
+    transform: rotate(40deg);
+    top: 100px;
+    left: -150px;
+    animation: movement 10.2s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.th {
+    height: 200px;
+    width: 200px;
+    transform: rotate(60deg);
+    top: 50px;
+    left: -100px;
+    animation: movement 9.9s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__blueberries.tho {
+    height: 250px;
+    width: 250px;
+    transform: rotate(60deg);
+    top: 20px;
+    left: -100px;
+    animation: movement 9.7s linear infinite;
+  }
+  .cakes-section-wrapper__mousse__descr {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: start;
+    margin-top: -10px;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 48px;
+    border-radius: 25px;
+    z-index: 5;
+    transition: transform 0.5s;
+    transform: translateY(2000px);
+  }
+  .cakes-section-wrapper__mousse__descr .price {
+    margin: 70px 115px 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Amatic SC;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  .cakes-section-wrapper__mousse__descr .price .num {
+    margin-right: -40px;
+  }
+  .cakes-section-wrapper__mousse__descr .description {
+    width: 480px;
+    font-size: 36px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=cakes.css.map */
