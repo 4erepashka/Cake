@@ -1,0 +1,1434 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Open+Sans:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Open+Sans:wght@300;600;700&display=swap");
+.toppings-section {
+  height: 2100px;
+  width: 100%;
+  position: relative;
+}
+.toppings-section canvas {
+  position: absolute;
+  opacity: 1;
+  width: 100%;
+  height: 3000px;
+  top: 0;
+  z-index: -1;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.toppings-section .container {
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  min-height: 100px;
+  justify-content: center;
+  height: 1000px;
+  row-gap: 30px;
+}
+.toppings-section__header {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin: 80px 0 0 0;
+  justify-self: start;
+  color: #fff;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 90px;
+}
+.toppings-section__cards_01 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  width: 444px;
+  height: 540px;
+  margin-top: 80px;
+}
+.toppings-section__cards_01 .card {
+  background-color: rgba(204, 204, 255, 0.3);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 67px;
+}
+.toppings-section__cards_01 .card .img {
+  width: 291px;
+  height: 260px;
+  background-image: url("../img/toppings/bi/01.png");
+  border-radius: 0px 0px 20px 20px;
+}
+.toppings-section__cards_01 .card .lottie-animation {
+  position: absolute;
+  padding: 0;
+}
+.toppings-section__cards_01 .card .forward {
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_01 .card .forward:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_01 .card .back {
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_01 .card .back:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_01 .card .options {
+  padding: 0;
+  margin: 0;
+}
+.toppings-section__cards_01 .card .options .option {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.toppings-section__cards_01 .card .options .option.active {
+  background-color: #fff;
+}
+.toppings-section__cards_01 .card .descr {
+  color: #fff;
+  font-family: Amatic SC;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  font-size: 36px;
+  margin: 130px 0 50px 0;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.toppings-section__title-bi {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  justify-self: center;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+  font-size: 56px;
+  align-self: center;
+}
+.toppings-section__cards_02 {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  width: 444px;
+  height: 540px;
+}
+.toppings-section__cards_02 .card {
+  background-color: rgba(204, 204, 255, 0.3);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 67px;
+}
+.toppings-section__cards_02 .card .img {
+  width: 291px;
+  height: 260px;
+  background-image: url("../img/toppings/be/01.png");
+  border-radius: 0px 0px 20px 20px;
+}
+.toppings-section__cards_02 .card .lottie-animation {
+  position: absolute;
+  padding: 0;
+}
+.toppings-section__cards_02 .card .forward {
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_02 .card .forward:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_02 .card .back {
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_02 .card .back:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_02 .card .options {
+  padding: 0;
+  margin: 0;
+}
+.toppings-section__cards_02 .card .options .option {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.toppings-section__cards_02 .card .options .option.active {
+  background-color: #fff;
+}
+.toppings-section__cards_02 .card .descr {
+  color: #fff;
+  font-family: Amatic SC;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  font-size: 36px;
+  margin: 130px 0 50px 0;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.toppings-section__cards_02 .card .descr {
+  margin: 100px 0 30px 0;
+  display: flex;
+  width: 260px;
+  justify-content: center;
+  text-align: center;
+}
+.toppings-section__cards_02 .card .lottie-animation {
+  padding: 0;
+}
+.toppings-section__title-be {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-top: -340px;
+  justify-self: center;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+  font-size: 56px;
+}
+.toppings-section__cards_03 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  width: 444px;
+  height: 540px;
+}
+.toppings-section__cards_03 .card {
+  background-color: rgba(204, 204, 255, 0.3);
+  box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 67px;
+}
+.toppings-section__cards_03 .card .img {
+  width: 291px;
+  height: 260px;
+  background-image: url("../img/toppings/bi/01.png");
+  border-radius: 0px 0px 20px 20px;
+}
+.toppings-section__cards_03 .card .lottie-animation {
+  position: absolute;
+  padding: 0;
+}
+.toppings-section__cards_03 .card .forward {
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_03 .card .forward:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_03 .card .back {
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+.toppings-section__cards_03 .card .back:hover {
+  transform: scale(1.2);
+}
+.toppings-section__cards_03 .card .options {
+  padding: 0;
+  margin: 0;
+}
+.toppings-section__cards_03 .card .options .option {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.toppings-section__cards_03 .card .options .option.active {
+  background-color: #fff;
+}
+.toppings-section__cards_03 .card .descr {
+  color: #fff;
+  font-family: Amatic SC;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  font-size: 36px;
+  margin: 130px 0 50px 0;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.toppings-section__cards_03 .card {
+  display: flex;
+  justify-content: center;
+}
+.toppings-section__cards_03 .card .toppings-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.toppings-section__cards_03 .card .toppings-list .item {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  justify-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Amatic SC;
+}
+.toppings-section__cards_03 .card .toppings-list .item .description {
+  width: 309px;
+  margin-left: -40px;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: Amatic SC;
+}
+.toppings-section__title-mu {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  margin-top: 200px;
+  justify-self: center;
+  color: #fff;
+  font-family: Open Sans;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+  font-size: 56px;
+}
+
+@media (max-width: 769px) {
+  .toppings-section {
+    height: 2100px;
+  }
+  .toppings-section canvas {
+    height: 2100px;
+  }
+  .toppings-section .container {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    row-gap: 0;
+    height: 2100px;
+  }
+  .toppings-section__header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    margin: 0px 0 0px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    font-size: 56px;
+  }
+  .toppings-section__cards_01 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    margin-top: -40px;
+    width: 444px;
+    height: 540px;
+    width: 350px;
+    height: 440px;
+    justify-self: center;
+  }
+  .toppings-section__cards_01 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_01 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_01 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_01 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_01 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_01 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_01 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_01 .card .descr {
+    margin: 100px 0 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-bi {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-sart: 2;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0rem;
+    font-weight: 300;
+    font-size: 40px;
+    align-self: center;
+    margin-top: -80px;
+  }
+  .toppings-section__cards_02 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    width: 444px;
+    height: 540px;
+    justify-self: center;
+    width: 350px;
+    height: 440px;
+    margin-top: -90px;
+  }
+  .toppings-section__cards_02 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_02 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/be/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_02 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_02 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_02 .card .descr {
+    margin: 80px 0 30px 0;
+    width: 260px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    margin-top: -340px;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: -40px;
+  }
+  .toppings-section__cards_03 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 444px;
+    height: 540px;
+    justify-self: center;
+    width: 350px;
+    height: 440px;
+    margin-top: -90px;
+  }
+  .toppings-section__cards_03 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_03 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_03 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_03 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_03 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_03 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_03 .card {
+    display: flex;
+    justify-content: center;
+  }
+  .toppings-section__cards_03 .card .toppings-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item .description {
+    width: 309px;
+    margin-left: -40px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__title-mu {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    justify-self: center;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: -40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .toppings-section {
+    height: 1980px;
+    height: 1980px;
+  }
+  .toppings-section .container {
+    display: grid;
+    grid-template-columns: repeat(8, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 2100px;
+  }
+  .toppings-section__header {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    margin: 0px 0 0px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    font-size: 56px;
+  }
+  .toppings-section__cards_01 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: -40px;
+    width: 444px;
+    height: 540px;
+    width: 350px;
+    height: 440px;
+    justify-self: center;
+  }
+  .toppings-section__cards_01 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_01 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_01 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_01 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_01 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_01 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_01 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_01 .card .descr {
+    margin: 100px 0 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-bi {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0rem;
+    font-weight: 300;
+    font-size: 48px;
+    align-self: center;
+    margin-top: -230px;
+  }
+  .toppings-section__cards_02 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    width: 444px;
+    height: 540px;
+    justify-self: start;
+    width: 350px;
+    height: 440px;
+    margin-top: -90px;
+  }
+  .toppings-section__cards_02 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_02 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_02 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_02 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_02 .card .descr {
+    margin: 80px 0 30px 0;
+    width: 260px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    margin-top: 80px;
+    height: 80px;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  .toppings-section__cards_03 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    width: 444px;
+    height: 540px;
+    justify-self: center;
+    width: 350px;
+    height: 440px;
+    margin-top: -80px;
+  }
+  .toppings-section__cards_03 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_03 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_03 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_03 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_03 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_03 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_03 .card {
+    display: flex;
+    justify-content: center;
+  }
+  .toppings-section__cards_03 .card .toppings-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item .description {
+    width: 309px;
+    margin-left: -40px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__title-mu {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    justify-self: center;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size: 48px;
+    margin-top: 100px;
+    height: 80px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .toppings-section {
+    height: 1980px;
+    height: 1980px;
+  }
+  .toppings-section .container {
+    display: grid;
+    grid-template-columns: repeat(10, 65px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    min-height: 100px;
+    justify-content: center;
+    height: 2100px;
+  }
+  .toppings-section__header {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    margin: 0px 0 0px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    font-size: 56px;
+  }
+  .toppings-section__cards_01 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: -40px;
+    width: 444px;
+    height: 540px;
+    width: 350px;
+    height: 440px;
+    justify-self: center;
+  }
+  .toppings-section__cards_01 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_01 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_01 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_01 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_01 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_01 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_01 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_01 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_01 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_01 .card .descr {
+    margin: 100px 0 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_01 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-bi {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0rem;
+    font-weight: 300;
+    font-size: 48px;
+    align-self: center;
+    margin-top: -230px;
+  }
+  .toppings-section__cards_02 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    width: 444px;
+    height: 540px;
+    justify-self: start;
+    width: 350px;
+    height: 440px;
+    margin-top: -90px;
+  }
+  .toppings-section__cards_02 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_02 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_02 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_02 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_02 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_02 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_02 .card .descr {
+    margin: 80px 0 30px 0;
+    width: 260px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  .toppings-section__cards_02 .card .lottie-animation {
+    padding: 0;
+  }
+  .toppings-section__cards_02 .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  .toppings-section__cards_02 .card .options .option {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  .toppings-section__title-be {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    margin-top: 80px;
+    height: 80px;
+    justify-self: center;
+    color: #fff;
+    font-family: Open Sans;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  .toppings-section__cards_03 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    width: 444px;
+    height: 540px;
+    justify-self: center;
+    width: 350px;
+    height: 440px;
+    margin-top: -80px;
+  }
+  .toppings-section__cards_03 .card {
+    background-color: rgba(204, 204, 255, 0.3);
+    box-shadow: 0px 1px 2px 0px #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px #c3c3fc, 2px 4px 16px 0px #c3c3fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 67px;
+  }
+  .toppings-section__cards_03 .card .img {
+    width: 291px;
+    height: 260px;
+    background-image: url("../img/toppings/bi/01.png");
+    border-radius: 0px 0px 20px 20px;
+  }
+  .toppings-section__cards_03 .card .lottie-animation {
+    position: absolute;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .forward {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .forward:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .back {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    cursor: pointer;
+  }
+  .toppings-section__cards_03 .card .back:hover {
+    transform: scale(1.2);
+  }
+  .toppings-section__cards_03 .card .options {
+    padding: 0;
+    margin: 0;
+  }
+  .toppings-section__cards_03 .card .options .option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .toppings-section__cards_03 .card .options .option.active {
+    background-color: #fff;
+  }
+  .toppings-section__cards_03 .card .descr {
+    color: #fff;
+    font-family: Amatic SC;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 36px;
+    margin: 130px 0 50px 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .toppings-section__cards_03 .card {
+    display: flex;
+    justify-content: center;
+  }
+  .toppings-section__cards_03 .card .toppings-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__cards_03 .card .toppings-list .item .description {
+    width: 309px;
+    margin-left: -40px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Amatic SC;
+  }
+  .toppings-section__title-mu {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    justify-self: center;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size: 48px;
+    margin-top: 100px;
+    height: 80px;
+  }
+}/*# sourceMappingURL=topings.css.map */

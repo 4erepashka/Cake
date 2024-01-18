@@ -1,0 +1,229 @@
+$logo_color:  #FDF4E3
+@import  url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&family=Open+Sans:wght@300;600;700&display=swap')
+@mixin container($col_columns: 12, $width_columns: 65px, $col_gap: 30px, $row_gap: 20px )
+    display: grid
+    grid-template-columns: repeat($col_columns, $width_columns)
+    column-gap:  $col_gap
+    min-height: 100px
+    justify-content: center
+
+@mixin ref($ref_color, $font_fam, $font_size, $font_weight)
+    color: $ref_color
+    font-size:  $font_size
+    font-family: $font_fam
+    font-weight: $font_weight
+    text-decoration: none
+
+
+@mixin card( $col_slides, $logo_img)
+    background-color: rgb(255, 255, 255)
+    width: 315px
+    height: 600px
+    border-radius: 30px
+    box-shadow: 2px 3px 10px rgb(230, 230, 230), -2px -3px 10px rgb(230,230,230)
+    display: flex
+    position: relative
+    flex-direction: column
+    padding: 20px
+    align-self: center
+    margin-top: 60px
+    .profile
+        display: flex   
+        flex-direction: row 
+        .logo
+            background-image: url($logo_img)
+            background-size: cover
+            width: 50px
+            height: 50px
+            cursor: pointer
+        .user-details
+            width: 100px
+            p
+                display: inline-block
+                width: 100px
+                font-family: 'Amatic SC'
+                font-size: 24px
+                margin-left: 10px
+
+    .detail-icon
+        flex-direction: column
+        display: flex
+        cursor: pointer
+        height: 13px
+        margin: 0 0 0 300px
+        span
+            display: block
+            background-color: rgb(41, 41, 41)
+            width: 3px 
+            height: 3px
+            margin: 1.5px 0
+            padding: 1px
+            border-radius: 50%
+
+    .carousel-container 
+        width: $size-width
+        height: $size-height
+        overflow: hidden
+        margin: 0 auto
+        .carousel 
+            display: flex
+            width: $size-width * $col_slides
+            height: $size-height
+            animation: sliding 20s infinite
+            .img 
+                width: 100%
+                height: 100%
+                background-size: cover
+                background-position-y: -80px
+    
+    .footer
+        display: flex
+        margin: 20px
+        flex-direction: column
+        font-size: 24px
+        color:  #636060 
+        .footer-icons
+            display: flex
+            margin: 10px 0 0 0  
+            i
+                font-size:24px
+                margin-right: 20px
+                cursor: pointer
+                .fa-heart
+                    color: red     
+                .fa-comment
+                    opacity: 0.8
+                .fa-paper-plane
+                    opacity: 0.8
+                .fa-bookmark
+                    opacity: 0.8
+        .text
+            margin: 20px 0 0 0 
+            font-size: 24px
+            font-family: 'Amatic SC'
+            display: flex
+            justify-content: space-between
+            span
+                margin: 0 0 0 100px
+        .footer2
+            margin: 20px 0 0 0 
+            font-family: 'Amatic SC'
+            font-size: 12px
+            color: #373737 
+            text-transform: none
+
+
+@mixin form-item()
+        grid-column-start: 7
+        grid-column-end: 13
+        color: #FFF
+        font-style: normal
+        margin-top: 100px
+        font-weight: 300
+        display: flex
+        font-family: Open Sans
+        align-items: center
+        font-size: 36px
+        text-transform: uppercase
+        &-field
+            border: none
+            border-bottom: 1px solid #fff
+            margin: -28px 0 0 60px
+            width: 200px
+            height: 60px
+            background-color: #CCCCFF
+            padding-inline: 0
+            color: #fff
+            font-size: 24px
+            caret-color: #fff
+            &::placeholder
+                color:  #fff
+                opacity: 0.5
+                font-size: 16px
+                font-size: 1.5em
+            &:focus
+                outline: 0
+            &._error
+                border-bottom: 1px solid #ff0000
+    
+@mixin toping_card($img)
+    width: 444px
+    height: 540px
+    .card
+        background-color: rgba(204, 204, 255, .3)
+        box-shadow: 0px 1px 2px 0px  #c3c3fc, 1px 2px 4px 0px #c3c3fc, 2px 4px 8px 0px  #c3c3fc, 2px 4px 16px 0px  #c3c3fc
+        width: 100%
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-items: center
+        align-items: center
+        position: relative
+        overflow: hidden
+        border-radius: 67px
+        .img
+            width: 291px
+            height: 260px
+            background-image: $img
+            border-radius: 0px 0px 20px 20px
+        .lottie-animation
+            position: absolute
+            padding: 0
+        .forward
+            position: absolute
+            right: 15px
+            top: 100px
+            cursor: pointer
+            &:hover
+                transform: scale(1.2)
+        .back
+            position: absolute
+            left: 15px
+            top: 100px
+            cursor: pointer
+            &:hover
+                transform: scale(1.2)
+        .options
+            padding: 0
+            margin: 0
+                
+            .option
+                display: inline-block
+                width: 21px
+                height: 21px
+                border-radius: 5px
+                border: 1px solid #fff
+            .option.active
+                background-color: #fff
+
+        .descr
+            color: #fff
+            font-family: Amatic SC
+            font-weight: 300
+            letter-spacing: .4rem
+            font-size: 36px
+            margin: 130px 0 50px 0 
+            display: flex
+            justify-items: center
+            text-align: center
+            padding: 10px
+
+@mixin toping_item($item_width, $item_height)
+    display: flex 
+    width: $item_width
+    height: $item_height
+    justify-content: center
+    align-items: center
+    background-color: rgba(188, 175, 243, 0.46)
+    border-radius: 15px
+    margin-top: 20px
+    .topping__ref
+        text-decoration: none
+        color: #FFF
+        font-family: Open Sans
+        font-size: 24px
+        font-weight: 300
+        text-align: center
+
+    
+
