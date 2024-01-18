@@ -3,7 +3,7 @@ const animation2 = lottie.loadAnimation({
     renderer: 'svg', 
     loop: true, 
     autoplay: true, 
-    path: './animation/anima.json' 
+    path: '../Cake/animation/anima.json' 
   });
 
   animation2.play();
